@@ -6,7 +6,8 @@ In this Test Framework, I have used RestAssured library for Automating API.
 I am using TestNG framework along with Maven build tool and using Extent Report for generating Report You will find the report under HTML Reports Folder.
 After Tests are finished it will automatically generate the Report in that folder. I have tried to automate the get, Post and Put call in the framework.
 
-For Get - 
+Tests i am trying to automate and their explanation:
+
 1. First test is to get all the user in the list and verify the user and status code 
 2. Second test is to get the 1111 -id user and verify the status code and first and last name
 3. Third test is to check the invalid user - Get the call for 7777 -id and verifying the the bad call status code i.e 404
