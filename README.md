@@ -8,8 +8,8 @@ After Tests are finished it will automatically generate the Report in that folde
 
 Tests i am trying to automate and their explanation:
 
-1. First test is to get all the user in the list and verify the user and status code 
-2. Second test is to get the 1111 -id user and verify the status code and first and last name
+1. First test is to get all the user in the list and verify the user and status code i.e 200 status code
+2. Second test is to get the 1111 -id user and verify the status code i.e 200 and first and last name 
 3. Third test is to check the invalid user - Get the call for 7777 -id and verifying the the bad call status code i.e 404
 4. Fourth test is to create a new user and for that i am creating an JSON object and putting the value inside that and verifying the status code - i.e 201
 5. Fifth test is to update the new user and for that i am using put command and verifing the status code i.e 200
